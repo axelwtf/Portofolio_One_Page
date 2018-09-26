@@ -26,7 +26,7 @@
 
     <section id="mesSection">
         <div id="titreAboutMe">
-            <h1 class="text-danger"><strong>About me</strong></h1>
+            <h1 id="mesH">About me</h1>
             <p class="text-dark"> <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia cum illum
                     aspernatur
                     ipsa maiores dolorem non, atque fugiat explicabo. Nihil minima fuga accusamus similique accusantium
@@ -40,6 +40,9 @@
                     cumque amet
                     ab ullam similique.</strong>
             </p>
+            <div>
+                
+            </div>
         </div>
     </section>
 
@@ -48,23 +51,24 @@
     </section> --}}
 
     <section id="mesSection">
+        <div id="" class="text-center">
+            <h1 class="projectTitre" id="mesH">Mes Projects</h1>
+        </div>
         <div class="row">
-            <div class="col-6">
+            <div class="col-12">
                 @include ('partials/carousel')
-            </div>
-
-            <div class="col-6">
-                <h1>Mes Projects</h1>
             </div>
         </div>
     </section>
 
-    <section id="mesSection">
+    <section id="sectionContact">
         <div id="contact">
             @include('partials/contact')
         </div>
     </section>
 
+
+<script src="{{ url('js/app.js') }}"></script>
 </body>
 
 </html>

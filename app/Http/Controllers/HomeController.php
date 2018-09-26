@@ -27,4 +27,16 @@ class HomeController extends Controller
         $contacts = Contact::all();
         return view('home');
     }
+
+    public function create(Request $request)
+    {
+        $path = $request->file('image')->store('public');
+        $tasks = new Task;
+        $tasks->titre = $request->leTitre;
+        $tasks->image = $path;
+        $tasks->description = $request->laDescription;
+        $tasks->save(); 
+        return redirect('home');
+    }
 }
+

@@ -10579,11 +10579,8 @@ button {
 }
 
 #titreAboutMe h1 {
-  font-family: font-file-82132;
   margin-top: 0;
-  color: #1A5276 !important;
   margin-bottom: 40px;
-  font-size: 60px !important;
 }
 
 #titreAboutMe p {
@@ -10603,11 +10600,28 @@ button {
 }
 
 #slider figure img {
-  height: 100vh !important;
+  height: 80vh !important;
+}
+
+#sectionContact {
+  background-color: #f1f1f1;
+  height: 50vh;
 }
 
 #contact {
-  height: 100vh;
+  height: 50vh;
+}
+
+#mesH {
+  color: #1A5276 !important;
+  font-family: font-file-82132;
+  font-weight: normal;
+  font-size: 50px;
+  letter-spacing: 15px;
+}
+
+.projectTitre {
+  margin: 0;
 }
 
 /*!

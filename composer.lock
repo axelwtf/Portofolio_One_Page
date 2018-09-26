@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f91a1c7998a7c3c386e94a2098d30abe",
+    "content-hash": "c0547849274934c5d889727dfc900f2b",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -925,6 +925,51 @@
                 "time"
             ],
             "time": "2018-08-07T08:39:47+00:00"
+        },
+        {
+            "name": "nicklayb/laravel-db-import",
+            "version": "v1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nicklayb/laravel-db-import.git",
+                "reference": "cccd8914ee9ae15b2ddd97f29e99025c26dcc0c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nicklayb/laravel-db-import/zipball/cccd8914ee9ae15b2ddd97f29e99025c26dcc0c2",
+                "reference": "cccd8914ee9ae15b2ddd97f29e99025c26dcc0c2",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "Nicklayb\\LaravelDbImport\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Boisvert",
+                    "email": "nicklay@me.com"
+                }
+            ],
+            "description": "Laravel database import package for easy manipulations",
+            "keywords": [
+                "artisan",
+                "database",
+                "import",
+                "laravel"
+            ],
+            "time": "2017-05-17T02:00:02+00:00"
         },
         {
             "name": "nikic/php-parser",

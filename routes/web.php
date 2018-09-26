@@ -26,4 +26,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/mail', 'ContactController@index');
 Route::get('/readMail/{id}', 'MailController@index');
 Route::post('/create', 'ContactController@create');
+Route::post('/create/tasks', 'TaskController@create');
 
