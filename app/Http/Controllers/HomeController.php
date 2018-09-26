@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Contact;
 
 class HomeController extends Controller
 {
@@ -19,10 +20,11 @@ class HomeController extends Controller
     /**
      * Show the application dashboard.
      *
-     * @return \Illuminate\Http\Response
+     * @return \Iluminate\Http\Response
      */
     public function index()
     {
+        $contacts = Contact::all();
         return view('home');
     }
 }
